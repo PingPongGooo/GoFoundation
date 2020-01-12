@@ -23,3 +23,6 @@ func TestConstantTry1(t *testing.T){
 	a:=7
 	t.Log(a&Writable == Readable)
 }
+
+
+
