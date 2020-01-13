@@ -47,3 +47,7 @@ func TestSwitchCaseCondition(t *testing.T)  {
 		}
 	}
 }
+
+
+
+
