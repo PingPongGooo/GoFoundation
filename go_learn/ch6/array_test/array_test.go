@@ -29,17 +29,4 @@ func TestArrayTravel(t *testing.T)  {
 
 }
 
-// // 数组截取
-// a[开始索引（包含），结束索引（不包含）]
-// a := [...]int{1,2,3,4,5}
-// a[1:2]
-// a[1:3]
-// a[1:len(a)]
-// a[1:]
-// a[:3]
 
-func TestArraySection(t *testing.T){
-	arr3  := [...]int{1,2,3,4,5}
-	arr3_sec := arr3[3:]
-t.Log(arr3_sec)
-}
