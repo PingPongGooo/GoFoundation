@@ -1,0 +1,5 @@
+package: GoFoundation/go_learn/ch15/mudule_package
+import: []
+testImport:
+- package: github.com/easierway/concurrent_map
+  version: 0.9.1
